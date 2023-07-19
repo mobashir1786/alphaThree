@@ -12,7 +12,7 @@ function Alpha() {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentComponent((prevComponent) => (prevComponent + 1) % 4);
-        }, 3000);
+        }, 5000);
 
         return () => clearInterval(timer);
     }, []);
