@@ -69,7 +69,7 @@ function Landing() {
     }, []);
 
     return (
-        <div>
+        <div className='contentheight'>
             <div className='refele' ref={canvasRef} />
             <div className='landingComponent'>THE ALPHA AGENCY</div>
         </div>
