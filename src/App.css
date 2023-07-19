@@ -37,6 +37,29 @@
   /* background-color: bisque; */
 }
 
+.contentTop {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.contentBottom {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+
+.largeText {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.smallText {
+  font-size: 20px;
+}
+
 
 .logo {
   width: 100%;
@@ -66,3 +89,7 @@
   left: 30%;
   letter-spacing: 5px;
 }
+
+/* .applyfilter {
+  filter: opacity(50);
+} */

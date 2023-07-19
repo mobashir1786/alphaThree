@@ -43,7 +43,7 @@ function Halfmoon() {
                 // Animation using gsap
                 gsap.to(model.rotation, {
                     y: Math.PI * 2,
-                    duration: 3,
+                    duration: 5,
                     repeat: -1,
                     ease: 'power0.ease',
                 });
