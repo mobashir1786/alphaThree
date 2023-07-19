@@ -71,10 +71,6 @@ function Halfmoon() {
     return (
         <div>
             <div className='refele' ref={canvasRef} />
-            <div className='landingComponent'>
-                <div className='ltopLine'>ATTAIN</div>
-                <div className='bottomLine'>DIGITAL NIVARAN</div>
-            </div>
         </div>
     );
 }

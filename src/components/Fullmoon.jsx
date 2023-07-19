@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { gsap } from 'gsap';
-import moon from '../assets/brainright.gltf';
+import moon from '../assets/moon.gltf';
 
 function Fullmoon() {
     const canvasRef = useRef(null);

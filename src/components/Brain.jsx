@@ -173,9 +173,13 @@ function Brain() {
     return (
         <div>
             <div className='refele' ref={canvasRef} />
-            <div className='landingComponent'>
-                <div className='ltopLine'>ATTAIN</div>
-                <div className='bottomLine'>DIGITAL NIVARAN</div>
+            <div className='contentTop'>
+                <div className='smallText'></div>
+                <div className='largeText'></div>
+            </div>
+            <div className='contentBottom'>
+                <div className='largeText'></div>
+                <div className='smallText'></div>
             </div>
         </div>
     );
